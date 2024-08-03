@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar1">
+
+            <a href="#">partner</a>
+            <a href="#">Bestie</a>
+            <a href="#">soulmate
+            </a>
+            <a href="#">Wife</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="navbar">
+           <img src="aug.webp" class="logo">
+           <a href="#" onclick="toggle();">My Heart</a>
+           
+        </div>
+        <div class="prasanna">
+            <h2>You're my greatest adventure</h2>
+            <a href="#">MY LUB</a>
+        </div>
+        
+        <div class="banner">
+            <img src="pic.jpg"alt="" srcset="" >
+            
+        </div>
+        
+        <div class="content1">
+            <h2>Geethu</h2>
+        </div>
+        <div class="side-bar">
+            <img src="menu.png" class="menu">
+
+            <div class="social-links">
+                <img src="wed.jpg" >
+                <img src="shoot.jpg" >
+                <img src="back.jpg" >
+            </div>
+
+            <div class="use-links">
+                <img src="mmm.jpg" >
+                <img src="edi.jpg" >
+            </div>
+
+
+        </div>
+
+     <div class="bubbles">
+        <img src="wed.jpg" >
+        <img src="shhot2.jpg" >
+        <img src="mmm.jpg" >
+        <img src="shoot.jpg" >
+        <img src="edi.jpg" >
+        <img src="saree.jpg" >
+        <img src="wed.jpg" >
+     </div>
+     
+    </div>
+   
+   
+    <div class="trailer">
+        <video width="440" height="500" src="heart.mp4" controls></video>
+        <img src="close.png" class="close" onclick="toggle();">
+    </div>
+     <script type="text/javascript">
+        function toggle() {
+            var trailer= document.querySelector(".trailer")
+            var video= document.querySelector("video")
+            trailer.classList.toggle("active");
+            video.pause();
+            video.currentTime = 0;
+            
+        }
+     </script>
+    
+     <div class="movie">
+        <video id="video2" width="600"  controls>
+            <source src="single.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video id="video3
+        " width="600" controls>
+            <source src="my.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     </div>
+     
+    
+</body>
+</html>
